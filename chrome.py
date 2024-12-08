@@ -26,6 +26,7 @@ options.add_argument(f"user-data-dir={profile_path}")  # only works if the tikto
 options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 # Initialize ChromeDriver
 service = Service(executable_path="/Users/jihobae/Documents/Programming/Selenium Tiktok Manager/Tiktok-Web-Scraping/Untitled/chromedriver")
+#I am hoping this works
 
 driver = webdriver.Chrome(service=service, options=options)
 
